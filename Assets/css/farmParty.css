@@ -1,0 +1,36 @@
+.navbar{
+    background-color: tomato;
+    padding: 64px;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+.navbar a:hover{ 
+    background-color:aquamarine; color:crimson;
+}
+.navbar:active{
+    background-color: cyan; color:darkgrey;
+}
+#farm{
+    width: 100%;
+    background-color: green;
+    margin-top: 480px;
+    height: 200px;
+    }
+#cow{
+    padding-left: 600px;
+}
+#lamb{
+    padding-top: 70px;
+    padding-left: 200px;
+}
+#tree{
+    padding-top: 1px;
+    padding-left: 1200px;
+
+}
+
+#party{
+    margin-top: 70px;
+    margin-left: 640px;
+    text-decoration: red;
+}
