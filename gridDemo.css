@@ -1,0 +1,60 @@
+.navbar{
+    background-color: tomato;
+    padding: 64px;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+.navbar a:hover{ 
+    background-color:aquamarine; color:crimson;
+}
+.navbar:active{
+    background-color: cyan; color:darkgrey;
+}
+.grid{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: orangered;
+}
+.title{
+    height: 120px;
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.header{
+    height: 120px;
+    background-color: tomato;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+.sideBar{
+    height: 360px;
+    background-color: violet;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+   
+    
+}
+.content{
+    height: 240px;
+    background-color: greenyellow;
+    grid-column-start: 2;
+}
+.content2{
+    height: 240px;
+    background-color:mediumspringgreen;
+    grid-column-start: 3;
+    
+
+
+}
+.footer{
+    height: 120px;
+    background-color: indigo;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
