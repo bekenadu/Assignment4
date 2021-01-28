@@ -1,0 +1,54 @@
+.navbar{
+    background-color: tomato;
+    padding: 64px;
+    text-align: center;
+    text-size-adjust: 50px;
+    height: 120px;
+    width: 100px;
+}
+.navbar a:hover{ 
+    background-color:aquamarine; color:crimson;
+}
+.navbar:active{
+    background-color: cyan; color:darkgrey;
+}
+body{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+#resultbox{
+    background-color: white;
+    width: 232px;
+    height: 48px;
+
+}
+#t1{
+    background-color:#091921;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border: 0;
+    width: 240px;
+    height: 48px;
+
+}
+#equal{
+    background-color: darkgoldenrod;
+}
+#add{
+    background-color: darkslateblue;
+}
+#sub{
+    background-color: darkslateblue;
+}
+#mult{
+    background-color: darkslateblue;
+}
+#div{
+    background-color: darkslateblue;
+}
