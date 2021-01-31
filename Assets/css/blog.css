@@ -1,0 +1,17 @@
+.navbar{
+    background-color: tomato;
+    padding: 64px;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+.navbar a:hover{ 
+    background-color:aquamarine; color:crimson;
+}
+.navbar:active{
+    background-color: cyan; color:darkgrey;
+}
+.body{
+ text-align: center;
+ font-family: sans-serif;
+ 
+}

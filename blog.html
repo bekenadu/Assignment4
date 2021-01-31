@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/blog.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar1" href="index.html">Home</a>
+        <a class="nav-link" href="calc.html">Calulator</a>
+    
+    
+        <a class="nav-link" href="farmParty.html">FarmParty</a>
+    
+    
+        <a class="nav-link" href="gridDemo.html">GridDemo</a>
+    
+    
+        <a class="nav-link" href="gallary.html">Gallary</a>
+    
+    
+        <a class="nav-link" href="blog.html">PsuedoClass</a>
+    
+    </nav>
+    <ul>
+        <h2>PsuedoClass</h2>
+        <p>
+            Is a selector  that selects elemnets, a tag under certian conditions of a certain state, like whe they are being hovered they tend to act as if
+            you had applied a class to some part of your html file.
+            We use this selectors to target part of an element that cant be targeted by using simple methods like class or id.
+            we use PsuedoClass selectors to select elementd based on there attributes, state or even relative positions</p>
+            <li>PsuedoClass are keyword that starts with a colol : </li>
+            <li>: Psuedo-Class-name</li>
+            <p><strong>For Example</strong></p>
+             <li> input type="text" checked > br></li>
+            <li>   input:checked {
+                     margin : 32px;
+                 }    
+            </li>
+            <li>now the second line will grow is margin only when the checked button is on</li>
+            <li>so we apply PsuedoClass to tags that are under certian condiotion</li>
+    </ul>
+    <ul>
+        <h2>PsuedoElements</h2>
+            <p>They behave in similar way but they act as if you had added a new html element.</p>
+            <li>They start using double colon :: </li>
+            <li>they dont apply on tags they apply inside the tags</li>
+            <li><strong>For Example</strong></li>
+            <li>P> This is a demo for PsuedoElements p></li>
+            <li>p::before {content :"hey"}
+            </li>
+            <li>now the second line will add the content "hey" in our p tag in the begining</li>
+            <li>p:: after { content: "hey"}
+            </li>
+            <li>this will add the content "hey" at the last of our p tag </li>
+        </ul>
+    <ul>
+        <h2>Flex Layout</h2>
+        <p>Flex layout is a layout thats in 1D in a ROW OR COLUMN</p>
+        <P>Flex is a content based layout which means content first layout methods </P>
+        <p>Before the Flexbox Layout module, there were four layout modes</p>
+        
+        <li>Block, for sections in a webpage</li>
+        <li>Inline, for text</li>
+        <li> for two-dimensional table data</li>
+        <li>Positioned, for explicit position of an element</li>
+        <p>The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or
+        positioning.</p> 
+    </ul>
+    <ul>
+        <h2>Grid Layout</h2>
+        <p>Grid Layout items are in 2D ROWS AND COLUMNS</p>
+        <P>Grid Layout is a layout based system which means doing the layout comes first unlike the flex
+        </P>
+        <p>grid helps you to create the outer layout of a page so you can build a complex responsive design </p>
+        <p>To make an HTML element behave as a grid container, you have to set the display property to grid or inline-grid.
+        
+        Grid containers consist of grid items, placed inside columns and rows.</p>
+    </ul>
+</body>
+</html>
